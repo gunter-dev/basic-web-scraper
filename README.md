@@ -8,8 +8,8 @@ and searches for all the URLs on that specific website.
 Make a txt file of links separated by new line characters and name it whatever you want to.
 Then start the Python script like this:
 
-```
-main.py <input_file> <output_file>
+```bash
+$ python3 main.py <input_file> <output_file>
 ```
 
 Where `input_file` is the name of the file you created with all your desired URLs and
@@ -26,4 +26,12 @@ the `requirements.txt` file like this:
 
 ```bash
 $ pip install -r requirements.txt
+```
+
+## Unit tests
+
+You can also launch unit tests (no arguments needed):
+
+```bash
+$ python3 unit_tests.py
 ```
